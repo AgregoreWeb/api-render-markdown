@@ -15,19 +15,19 @@ import rust from '/highlight.js-modified/src/languages/rust.js'
 import brainfuck from '/highlight.js-modified/src/languages/brainfuck.js'
 import kotlin from '/highlight.js-modified/src/languages/kotlin.js'
 import ruby from '/highlight.js-modified/src/languages/ruby.js'
-import latex from '/highlight.js-modified/src/languages/latex.js'
+//import latex from '/highlight.js-modified/src/languages/latex.js' VULNERABLE TO BEAKER CUT-OFF
 import perl from '/highlight.js-modified/src/languages/perl.js'
 import swift from '/highlight.js-modified/src/languages/swift.js'
 import xml from '/highlight.js-modified/src/languages/xml.js'
-import monkey from '/highlight.js-modified/src/languages/monkey.js'
+//import monkey from '/highlight.js-modified/src/languages/monkey.js' VULNERABLE TO BEAKER CUT-OFF
 import typescript from '/highlight.js-modified/src/languages/typescript.js'
 import php from '/highlight.js-modified/src/languages/php.js'
-import sql from '/highlight.js-modified/src/languages/sql.js'
+//import sql from '/highlight.js-modified/src/languages/sql.js' VULNERABLE TO BEAKER CUT-OFF
 import css from '/highlight.js-modified/src/languages/css.js'
 import excel from '/highlight.js-modified/src/languages/excel.js'
 import plaintext from '/highlight.js-modified/src/languages/plaintext.js'
 import dos from '/highlight.js-modified/src/languages/dos.js'
-import mathematica from '/highlight.js-modified/src/languages/mathematica.js'
+//import mathematica from '/highlight.js-modified/src/languages/mathematica.js' VULNERABLE TO BEAKER CUT-OFF
 import r from '/highlight.js-modified/src/languages/r.js'
 import json from '/highlight.js-modified/src/languages/json.js'
 import objectivec from '/highlight.js-modified/src/languages/objectivec.js'
@@ -61,19 +61,19 @@ highlightJS.registerLanguage('rust', rust)
 highlightJS.registerLanguage('brainfuck', brainfuck)
 highlightJS.registerLanguage('kotlin', kotlin)
 highlightJS.registerLanguage('ruby', ruby)
-highlightJS.registerLanguage('latex', latex)
+//highlightJS.registerLanguage('latex', latex) VULNERABLE TO BEAKER CUT-OFF
 highlightJS.registerLanguage('perl', perl)
 highlightJS.registerLanguage('swift', swift)
 highlightJS.registerLanguage('xml', xml)
-highlightJS.registerLanguage('monkey', monkey)
+//highlightJS.registerLanguage('monkey', monkey) VULNERABLE TO BEAKER CUT-OFF
 highlightJS.registerLanguage('typescript', typescript)
 highlightJS.registerLanguage('php', php)
-highlightJS.registerLanguage('sql', sql)
+//highlightJS.registerLanguage('sql', sql) VULNERABLE TO BEAKER CUT-OFF
 highlightJS.registerLanguage('css', css)
 highlightJS.registerLanguage('excel', excel)
 highlightJS.registerLanguage('plaintext', plaintext)
 highlightJS.registerLanguage('dos', dos)
-highlightJS.registerLanguage('mathematica', mathematica)
+//highlightJS.registerLanguage('mathematica', mathematica) VULNERABLE TO BEAKER CUT-OFF
 highlightJS.registerLanguage('r', r)
 highlightJS.registerLanguage('json', json)
 highlightJS.registerLanguage('objectivec', objectivec)

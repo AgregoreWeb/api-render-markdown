@@ -4,3 +4,6 @@
 [submodule "markdown-it"]
 	path = markdown-it
 	url = https://github.com/markdown-it/markdown-it.git
+[submodule "markdown-it-container"]
+	path = markdown-it-container
+	url = https://github.com/markdown-it/markdown-it-container

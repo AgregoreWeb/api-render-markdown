@@ -43,7 +43,7 @@ import c from '/highlight.js-modified/src/languages/c.js'
 import cpp from '/highlight.js-modified/src/languages/cpp.js'
 import go from '/highlight.js-modified/src/languages/go.js'
 import arduino from '/highlight.js-modified/src/languages/arduino.js'
-import x86asm from '/highlight.js-modified/src/languages/x86asm.js'
+//import x86asm from '/highlight.js-modified/src/languages/x86asm.js' VULNERABLE TO BEAKER CUT-OFF
 import csharp from '/highlight.js-modified/src/languages/csharp.js'
 import purebasic from '/highlight.js-modified/src/languages/purebasic.js'
 import powershell from '/highlight.js-modified/src/languages/powershell.js'
@@ -89,7 +89,7 @@ highlightJS.registerLanguage('c', c)
 highlightJS.registerLanguage('cpp', cpp)
 highlightJS.registerLanguage('go', go)
 highlightJS.registerLanguage('arduino', arduino)
-highlightJS.registerLanguage('x86asm', x86asm)
+//highlightJS.registerLanguage('x86asm', x86asm) VULNERABLE TO BEAKER CUT-OFF
 highlightJS.registerLanguage('csharp', csharp)
 highlightJS.registerLanguage('purebasic', purebasic)
 highlightJS.registerLanguage('powershell', powershell)

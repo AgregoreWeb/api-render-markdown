@@ -4,11 +4,11 @@ API for rendering markdown, made for use in Agregore
 ## Usage
 This API is designed for use in vanilla javascript modules.
 
-For imports you will need two things:
-Key: `bfa59937d1c74437f015096ab07ef04c30c051ad5a9d4bdf9d01abb19ca97f1c`
+For imports you will need two things:  
+Key: `bfa59937d1c74437f015096ab07ef04c30c051ad5a9d4bdf9d01abb19ca97f1c`  
 > Note: This is a temporary drive and is due to change. Currently this is keyed by @KyGost
 
-Version: `962`
+Version: `962`  
 > Note: This may be out of date and is also due to change.
 
 ### Importing main API

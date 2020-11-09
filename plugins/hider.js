@@ -1,4 +1,4 @@
-import markdownItContainer from '/markdown-it-container-bundled/index.js'
+import markdownItContainer from '/bundles/markdown-it-container/bundled.js'
 const hider = [
 	markdownItContainer,
 	'hider',

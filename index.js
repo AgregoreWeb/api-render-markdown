@@ -1,4 +1,4 @@
-import markdownIt from '/markdown-it-bundled/index.js' // TODO: Find a clean method
+import markdownIt from '/bundles/markdown-it/bundled.js' // TODO: Find a clean method
 import highlightJS from '/highlight.js-modified/src/highlight.js' // TODO: PR for making highlight.js compatible with ES6 modules by default
 
 // This is a heavy module. Perhaps in future I can implement multiple options for heaviness

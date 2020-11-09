@@ -1,9 +1,3 @@
 [submodule "highlightjs"]
 	path = highlight.js
 	url = https://github.com/highlightjs/highlight.js.git
-[submodule "markdown-it"]
-	path = markdown-it
-	url = https://github.com/markdown-it/markdown-it.git
-[submodule "markdown-it-container"]
-	path = markdown-it-container
-	url = https://github.com/markdown-it/markdown-it-container.git

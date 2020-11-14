@@ -1,9 +1,8 @@
-import markdownItIframe from '/bundles/markdown-it-iframe/bundled.js'
-const iframe = [
+import markdownItIframe from "/bundles/markdown-it-iframe/bundled.js";
+export default [
 	markdownItIframe,
 	{
 		allowfullscreen: true,
-		width: '100%'
-	}
-]
-export default iframe
+		width: "100%",
+	},
+];

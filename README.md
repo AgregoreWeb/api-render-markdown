@@ -51,3 +51,13 @@ Collapsed words
 /i/<URL>
 ```
 **Notes**: Will render at 100% width
+
+### Todo
+**Name**: `Todo`  
+**Achieves**: Adds Github-like todo lists
+**Uses**: [`markdown-it-todo`](https://github.com/dexfire/markdown-it-todo)  
+**Markdown usage**:
+```markdown
+- [ ] Unchecked
+- [x] Checked
+```

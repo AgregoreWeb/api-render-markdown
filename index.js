@@ -103,7 +103,7 @@ const markdown = markdownIt({
 		if (lang && highlightJS.getLanguage(lang)) {
 			try {
 				return highlightJS.highlight(lang, str).value;
-			} catch () {}
+			} catch (_) {}
 		}
 
 		return "";
